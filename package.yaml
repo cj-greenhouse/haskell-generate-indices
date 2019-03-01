@@ -1,0 +1,34 @@
+name:                generate-indices
+version:             0.1.0.0
+github:              "cj-greenhouse/haskell-generate-indices.git"
+license:             BSD3
+author:              "CJ Engineers"
+maintainer:          "Greg Wiley <aztec.rex@jammm.com>"
+copyright:           "2019 CJ Affiliate"
+
+extra-source-files:
+- README.md
+
+synopsis:            Standalone creation of package indices.
+category:            Distribution
+
+description:         See Github <https://github.com/cj-greenhouse/generate-indices#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+
+tests:
+  generate-indices-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - generate-indices
+
+
