@@ -15,7 +15,9 @@ category:            Distribution
 description:         See Github <https://github.com/cj-greenhouse/generate-indices#readme>
 
 dependencies:
-- base >= 4.7 && < 5
+  - base >= 4.7 && < 5
+  - Cabal
+
 
 library:
   source-dirs: src
