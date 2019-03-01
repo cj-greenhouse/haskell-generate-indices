@@ -3,3 +3,8 @@ generate-indices.cabal
 *~
 *deleteme*
 .DS_Store
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.zip
