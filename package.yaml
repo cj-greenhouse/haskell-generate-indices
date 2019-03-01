@@ -36,4 +36,30 @@ tests:
     dependencies:
     - generate-indices
 
-
+default-extensions:
+  - ConstraintKinds
+  - DataKinds
+  - DefaultSignatures
+  - DeriveAnyClass
+  - DeriveFunctor
+  - DeriveGeneric
+  - ExistentialQuantification
+  - FlexibleContexts
+  - FlexibleInstances
+  - FunctionalDependencies
+  - GADTs
+  - MonoLocalBinds
+  - GeneralizedNewtypeDeriving
+  - KindSignatures
+  - LambdaCase
+  - MultiParamTypeClasses
+  - NamedFieldPuns
+  - OverloadedStrings
+  - RankNTypes
+  - ScopedTypeVariables
+  - StandaloneDeriving
+  - TupleSections
+  - TypeApplications
+  - TypeOperators
+  - TypeFamilies
+  - InstanceSigs
