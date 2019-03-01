@@ -16,7 +16,10 @@ description:         See Github <https://github.com/cj-greenhouse/generate-indic
 
 dependencies:
   - base >= 4.7 && < 5
+  - bytestring
   - Cabal
+  - tar
+  - text
 
 
 library:
